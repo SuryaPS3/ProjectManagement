@@ -1,2 +1,4 @@
-
-node_modules
+# ignoring the node modules - npm install based on package.json
+node_modules 
+# ignoring environment files
+.env
