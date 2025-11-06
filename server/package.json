@@ -4,7 +4,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "server":"prisma generate && node server.js",
+    "server": "prisma generate && node server.js",
     "start": "nodemon server.js"
   },
   "keywords": [],
@@ -15,6 +15,7 @@
     "@clerk/express": "^1.7.43",
     "@neondatabase/serverless": "^1.0.2",
     "@prisma/adapter-neon": "^6.19.0",
+    "@prisma/client": "^6.19.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
